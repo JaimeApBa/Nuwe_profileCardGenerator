@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+body {
+    width: 100%;
+    background-color: #6b9194;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 80%;
+    max-width: 500px;
+}
+
+.card-header {
+    background-color: hsl(213, 20%, 33%);
+    color: white;
+    padding: 2px 15px;
+    display: flex;
+    height: 115px;
+}
+
+.user-data {
+    width: 55%;
+    font-size: 1.1em;
+}
+
+.user-image {
+    width: 100%;
+}
+
+.ranking {
+    font-family: 'Alfa Slab One', cursive;
+    overflow: hidden;
+    margin-top: -30px;
+    margin-bottom: -115px;
+    color: hsla(215, 20%, 40%, 0.8);
+    font-size: 12em;
+    z-index: 1;
+}
+
+.card-body {
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.medal {
+    position: absolute;
+    top: 80%;
+    left: 77%;
+    width: 20%;
+}
+
+@media screen and (max-width: 500px) {
+    .ranking {
+        font-size: 10em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .ranking {
+        font-size: 5em;
+        margin-top: 0px;
+    }
+}
